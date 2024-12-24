@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body > header {
+    background-color:black;
+    padding: 16px 0;
+    color:darkgrey;
+
+
+}
+
+header .container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+header li a{
+    color: darkgrey;
+    text-decoration: none;
+    margin: 16px;
+
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    
+
+}
+.articles {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.articles article img{
+    /*height: 180px;*/
+    width: 50%;
+}
+
+.articles article{
+    width: 45%;
+}
+
+section {
+    padding: 6px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.articles article a{
+    background-color: cornflowerblue;
+    color:aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight:700;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration:underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3{
+    font-size: 24x;
+}
+
+section h2{
+    font-size: 36px;
+}
+
+#esportes {
+    background-color: rgba(200,0,0,0.3);
+}
+#esportes .articles article a{
+    background-color:crimson;
+}
+
+#economia {
+    background-color:rgba(244, 234, 177, 0.5);
+
+}
+#economia .articles article a{
+    background-color: rgba(170, 153, 59,0.70);
+}
+
+#random {
+    background-color: rgba(45, 129, 14, 0.688);
+}
+#random .articles article a{
+    background-color:rgb(36, 99, 53);
+}
+
+#musica {
+    background-color: rgba(220, 102, 59, 0.685);
+}
+#musica .articles article a{
+    background-color: orangered;
+}
+
+#jogos {
+    background-color: plum;
+}
+#jogos .articles article a{
+    background-color: rgba(94, 56, 94, 0.723);
+}
+
